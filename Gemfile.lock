@@ -114,6 +114,7 @@ GEM
     erb (5.0.2)
     erubi (1.13.1)
     ffi (1.17.2-x86_64-darwin)
+    ffi (1.17.2-x86_64-linux-gnu)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -166,6 +167,8 @@ GEM
     nokogiri (1.18.9-x86_64-linux-gnu)
       racc (~> 1.4)
     orm_adapter (0.5.0)
+    pg (1.6.1-x86_64-darwin)
+    pg (1.6.1-x86_64-linux)
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
@@ -283,6 +286,7 @@ DEPENDENCIES
   jbuilder
   mini_magick
   mysql2 (~> 0.5)
+  pg
   puma (>= 5.0)
   rails (~> 7.1.0)
   selenium-webdriver
